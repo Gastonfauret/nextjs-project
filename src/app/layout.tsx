@@ -9,11 +9,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <header>
           <h2>Header de la Pagina</h2>
           <nav>
-            <Link href="/">Home--</Link>
-            <Link href="/contacto">Contacto--</Link>
-            <Link href="/blog">Blog--</Link>
-            <Link href="/acerca">Acerca--</Link> 
-            <Link href="/productos" >Productos</Link>           
+            <Link href="/">Home  </Link>
+            <Link href="/contacto">Contacto  </Link>
+            <Link href="/blog">Blog  </Link>
+            <Link href="/acerca">Acerca  </Link> 
+            <Link href="/productos" >Productos  </Link>
+            <Link href="/login" >Login  </Link>
+            <Link href="/register" >Registro  </Link>
+            <Link href="/password" >Recuperar Password  </Link>      
+            <Link href="/dashboard" >Dashboard  </Link>                           
           </nav>
         </header>
         <main>{children}</main>
