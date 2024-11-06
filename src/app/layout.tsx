@@ -6,18 +6,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <title>App Next.js By Jonmircha</title>
       <body>
-        <header>
-          <h2>Header de la Pagina</h2>
+        <header className=" bg-red-300 w-full h-32 grid items-center justify-center ">
+          <h2 className=" text-4xl text-center ">Header de la Pagina</h2>
           <nav>
-            <Link href="/">Home  </Link>
-            <Link href="/contacto">Contacto  </Link>
-            <Link href="/blog">Blog  </Link>
-            <Link href="/acerca">Acerca  </Link> 
-            <Link href="/productos" >Productos  </Link>
-            <Link href="/login" >Login  </Link>
-            <Link href="/register" >Registro  </Link>
-            <Link href="/password" >Recuperar Password  </Link>      
-            <Link href="/dashboard" >Dashboard  </Link>                           
+            <Link className=" mx-10 text-lg " href="/">Home  </Link>
+            <Link className=" mr-10 text-lg " href="/contacto">Contacto  </Link>
+            <Link className=" mr-10 text-lg " href="/blog">Blog  </Link>
+            <Link className=" mr-10 text-lg " href="/acerca">Acerca  </Link> 
+            <Link className=" mr-10 text-lg " href="/productos" >Productos  </Link>
+            <Link className=" mr-10 text-lg " href="/login" >Login  </Link>
+            <Link className=" mr-10 text-lg " href="/register" >Registro  </Link>
+            <Link className=" mr-10 text-lg " href="/password" >Recuperar Password  </Link>      
+            <Link className=" mr-10 text-lg " href="/dashboard" >Dashboard  </Link>                           
           </nav>
         </header>
         <main>{children}</main>
