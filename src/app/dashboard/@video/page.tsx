@@ -8,6 +8,3 @@ export default function Video() {
   )
 }
 
-//https://www.youtube.com/watch?v=r5fkL5_rB70&t=6535s
-//Tiempo del Video: 2hs:19':44"
-//API REST
