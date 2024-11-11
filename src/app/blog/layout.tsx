@@ -5,17 +5,19 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <header>Cabecera del Blog</header>
-      <main>
+      <header className="flex items-center justify-center w-full h-32 text-xl bg-pink-200">Cabecera del Blog</header>
+      
+      <main className="flex flex-col items-center justify-center w-full bg-gray-300">
         <section>{children}</section>
-        <aside>
-          <form action="">
+        <aside >
+          <form className="flex flex-col" action="">
             <input type="search" name="" id="" placeholder="Buscar"/>
-            <input type="submit" value="Enviar"  />
+            <input className="cursor-pointer hover:text-blue-400" type="submit" value="Enviar"  />
           </form>
         </aside>
       </main>
-      <footer>Footer del Blog</footer>
+      
+      <footer className="flex items-center justify-center w-full h-32 text-xl bg-pink-300">Footer del Blog</footer>
     </>
   );
 }

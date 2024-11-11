@@ -10,8 +10,10 @@ export default function Contacto() {
 
   return (
     <>
-      <h1>Contacto</h1>
-      <p onClick={handleClick}>Volver</p>
+    <div className="flex flex-col items-center justify-center w-full h-full bg-green-200">
+      <h1 className="text-xl">Contacto</h1>
+      <p className="cursor-pointer hover:text-blue-700" onClick={handleClick}>Volver</p>
+    </div>
     </>
   );
 }
