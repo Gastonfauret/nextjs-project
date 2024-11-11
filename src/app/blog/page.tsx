@@ -1,3 +1,7 @@
 export default function Blog() {
-    return <h1 className="text-xl ">Blog</h1>    
+  return (
+    <div>
+      <h1 className="text-xl ">Blog</h1>
+    </div>
+  );
 }
