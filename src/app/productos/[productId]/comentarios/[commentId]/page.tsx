@@ -1,9 +1,9 @@
-type tParams = Promise<{ productId: string; commentId: string }>;
+type Params = Promise<{ productId: string; commentId: string }>;
 
 export default async function CommentDetail({
-  params,
+  params
 }: {
-  params: tParams;
+  params: Params;
 }) {
   const { productId, commentId } = await params;
 
