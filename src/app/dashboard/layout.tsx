@@ -11,17 +11,17 @@ export default function DashboardLayout({
 }) {
     return (
         <>
-            <div className="flex flex-col items-center justify-evenly h-full text-xl bg-lime-200 ">
+            <div className="flex flex-col items-center h-full text-xl justify-evenly bg-lime-200">
                 <article>{children}</article>
 
-                <section className=" w-3/5 h-64 flex bg-slate-500 items-center justify-around rounded-lg">
-                    <aside className=" w-96 h-56 bg-amber-400 flex items-center justify-center rounded-lg">
+                <section className="flex items-center justify-around w-4/5 h-64 gap-2 p-4 rounded-lg bg-slate-500">
+                    <aside className="flex items-center justify-center h-56 p-3 rounded-lg w-96 bg-amber-400">
                         {analytics}
                     </aside>
-                    <aside className=" w-96 h-56 bg-amber-400 flex items-center justify-center rounded-lg">
+                    <aside className="flex items-center justify-center h-56 p-3 rounded-lg w-96 bg-amber-400">
                         {video}
                     </aside>
-                    <aside className=" w-96 h-56 bg-amber-400 flex items-center justify-center rounded-lg">
+                    <aside className="flex items-center justify-center h-56 p-3 rounded-lg w-96 bg-amber-400">
                         {chat}
                     </aside>
                 </section>
