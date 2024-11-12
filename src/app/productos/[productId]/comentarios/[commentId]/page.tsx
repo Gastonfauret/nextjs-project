@@ -1,11 +1,11 @@
-type Params = Promise<{ productId: string; commentId: string }>;
+type Params = { productId: string; commentId: string };
 
-export default async function CommentDetail({
+export default function CommentDetail({
   params
 }: {
   params: Params;
 }) {
-  const { productId, commentId } = await params;
+  const { productId, commentId } = params;
 
   return (
     <div className="flex items-center justify-center h-full text-xl bg-red-100">
