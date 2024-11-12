@@ -1,11 +1,16 @@
-type PageProps = {
+export default async function CommentDetail({
+  params,
+}: {
   params: { productId: string; commentId: string };
-};
+}) {
 
-export default function CommentDetail({ params }: PageProps) {
+  const { productId, commentId } = await params;
+
   return (
-    <div>
-      <h1>Comentario {params.commentId} del Producto {params.productId}</h1>
+    <div className="flex items-center justify-center h-full text-xl bg-red-100">
+      <h1>
+        Comentario {commentId} del Producto {productId}
+      </h1>
     </div>
   );
 }
