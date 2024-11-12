@@ -1,10 +1,11 @@
-export default function CommentDetail({
+type tParams = Promise<{ productId: string; commentId: string }>;
+
+export default async function CommentDetail({
   params,
 }: {
-  params: { productId: string; commentId: string };
+  params: tParams;
 }) {
-
-  const { productId, commentId } = params;
+  const { productId, commentId } = await params;
 
   return (
     <div className="flex items-center justify-center h-full text-xl bg-red-100">
