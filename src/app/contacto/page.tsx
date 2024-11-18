@@ -26,7 +26,7 @@ export default function Contacto() {
               <p className=' text-green-500 font-serif font-semibold'>Contactate con un capibara</p>
               <Image className=" w-40 " src={CapyAtencionCliente} alt="Capy-atencion-al-cliente" />
             </div>
-            <div className=" w-5/6 h-full rounded-lg bg-green-100 flex flex-col items-center justify-center gap-5">
+            <div className=" w-5/6 h-full rounded-lg bg-green-100 flex flex-col items-center justify-center gap-5 2xl:gap-10 lg:py-7">
               <input className=" w-4/5 h-8 flex text-center rounded-md border-green-400 border" type="text" placeholder="Nombres" />
               <input className=" w-4/5 h-8 flex text-center rounded-md border-green-400 border" type="text" placeholder="Apellido" />
               <input className=" w-4/5 h-8 flex text-center rounded-md border-green-400 border" type="email" placeholder="Correo electrónico" />
