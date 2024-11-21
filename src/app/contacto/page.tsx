@@ -1,5 +1,5 @@
 "use client";
-import { useRouter } from "next/navigation";
+//import { useRouter } from "next/navigation";
 import CapyAtencionCliente from "../../../assets/capy-atencion-cliente.png"
 import LogoWhatsapp from "../../../assets/logo-whatsapp.png"
 import CapyCelular from "../../../assets/capy-celu.png"
@@ -8,12 +8,12 @@ import CapyEmail from "../../../assets/capy-email.png"
 import Image from 'next/image';
 
 
-export default function Contacto() {
-  const router = useRouter();
+ export default function Contacto() {
+//   const router = useRouter();
 
-  const handleClick = () => {
-    router.push("/");
-  };
+  // const handleClick = () => {
+  //   router.push("/");
+  // };
 
   return (
     <>
