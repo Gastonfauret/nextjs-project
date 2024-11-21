@@ -31,8 +31,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <main className="flex-grow ">{children}</main>
 
         <footer className="flex items-center justify-center w-full h-32 text-xl">
-          <div className="flex h-full w-full bg-green-200">
-            <div className=" h-full w-full ">
+          <div className="flex  h-full w-full bg-green-200">
+            <div className=" h-full w-full py-3 lg:py-10">
               <ul className=" flex flex-col items-start h-full justify-center pl-5 gap-1">
                 <li className=" text-xs font-semibold font-serif text-green-400 hover:text-green-900 cursor-pointer">Home</li>
                 <li className=" text-xs font-semibold font-serif text-green-400 hover:text-green-900 cursor-pointer">Contacto</li>
