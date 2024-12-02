@@ -1,8 +1,10 @@
 import Capy2 from "../../../../assets/blog/capy-2.webp"
 import Image from 'next/image';
+import BlogLayout from "../BlogLayout";
 
 export default function Article2() {
     return (
+        <BlogLayout headerText=" Articulo Nro. 2" footerText="Footer Articulo Nro. 2">
         <div className=" h-full w-fullh-full bg-green-100 flex items-center justify-center gap-5 flex-grow">
             <Image className=" w-full " src={Capy2} alt="logo-capy" />
             <div className=" flex flex-col m-5 gap-2">
@@ -13,6 +15,7 @@ export default function Article2() {
             </div>
 
         </div>
+        </BlogLayout>
     )
 
 }
